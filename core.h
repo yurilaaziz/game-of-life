@@ -12,4 +12,5 @@ int computeNext();
 int fill_univers(int idPattern, univers *gridx, int cols,int rows);
 int random_univers(univers *gridx, int cols,int rows);
 int glider_univers(univers *gridx, int cols,int rows);
+
 #endif // CORE_H_INCLUDED

@@ -138,7 +138,7 @@ return 0;
 int glider_univers(univers *gridx, int cols,int rows){
 
 int col,row;
-int aliveCellNumber=0;
+int aliveCellNumber = 0;
 univers *cell;
 char config[9][36] = {{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0},
                      {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0},
@@ -151,7 +151,7 @@ char config[9][36] = {{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
                      {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}
                      };
 
-for(row = 0; row< rows; row++){
+for(row = 0; row < rows; row++){
         for(col = 0; col < cols; col++){
             cell = getXYcell(col, row, gridx);
             if (config[row][col] == 1){

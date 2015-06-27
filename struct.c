@@ -3,7 +3,6 @@
 
 #include "struct.h"
 
-
 int isAlive(univers *cell){
     return (cell->status == ALIVE);
 }
